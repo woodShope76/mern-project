@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "title": "TIED RIBBONS Designer DSW Chair",
+    "category": "Dining Chairs",
+    "price": 245,
+    "oldPrice": 289,
+    "image": "https://m.media-amazon.com/images/I/81HwV45229L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "CRAFTCANE Cane Chair with Cushion",
+    "category": "3 Seater Sofas",
+    "price": 178,
+    "oldPrice": 236,
+    "image": "https://m.media-amazon.com/images/I/61TnYQFWZcL.jpg"
+  },
+  {
+    "id": 3,
+    "title": "ANJWAR Plastic Arm Tub Chairs",
+    "category": "Living room",
+    "price": 278,
+    "oldPrice": 356,
+    "image": "https://m.media-amazon.com/images/I/41vP9w-E+wL._QL92_SH45_SS200_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Solimo Carina Engineered Wood",
+    "category": "Dining Chairs",
+    "price": 240,
+    "oldPrice": 280,
+    "image": "https://m.media-amazon.com/images/I/81kZbtZfa6S.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Bar Stool Wooden Stand",
+    "category": "TV Stands",
+    "price": 132,
+    "oldPrice": 198,
+    "image": "https://www.shutterstock.com/image-vector/bar-wooden-stool-isolated-on-260nw-1522841315.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Teak Coffee Table Set",
+    "category": "Armchairs",
+    "price": 210,
+    "oldPrice": 295,
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/469147729/KZ/UG/VA/52263659/whatsapp-image-2024-11-28-at-7-17-17-pm-500x500.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Outdoor Patio Set",
+    "category": "Living room",
+    "price": 310,
+    "oldPrice": 390,
+    "image": "https://images.woodenstreet.de/image/cache/data/outdoor-set/milano/set-of-4/new-logo/1-810x702.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Classic Chesterfield Sofa",
+    "category": "Armchairs",
+    "price": 460,
+    "oldPrice": 510,
+    "image": "https://i.etsystatic.com/9554443/r/il/e66a03/1657443417/il_570xN.1657443417_5xgv.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Modern Office Chair",
+    "category": "Office Chairs",
+    "price": 180,
+    "oldPrice": 225,
+    "image": "https://m.media-amazon.com/images/I/91bKiGW0v-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Luxury Recliner Sofa",
+    "category": "Recliners",
+    "price": 520,
+    "oldPrice": 610,
+    "image": "https://damroimages.blob.core.windows.net/damroimages/13012-1.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Fabric Lounge Chair",
+    "category": "Armchairs",
+    "price": 195,
+    "oldPrice": 245,
+    "image": "https://wallmantra.com/wp-content/uploads/WallMantra-WMAC-009.webp"
+  },
+  {
+    "id": 12,
+    "title": "Wooden Rocking Chair",
+    "category": "Rocking Chairs",
+    "price": 160,
+    "oldPrice": 210,
+    "image": "https://images.woodenstreet.de/image/cache/data/dzyn-furniture/omaha-premium-solid-wood-rocking-chair-teak/1-810x702.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Velvet Ottoman Stool",
+    "category": "Stools",
+    "price": 85,
+    "oldPrice": 110,
+    "image": "https://m.media-amazon.com/images/I/81cvgnFYUBL.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Luxury Corner Sofa",
+    "category": "3 Seater Sofas",
+    "price": 670,
+    "oldPrice": 745,
+    "image": "https://minottilondon.com/wp-content/uploads/2022/02/how-to-style-a-corner-sofa-in-a-room-934x600.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Kids Study Chair",
+    "category": "Kids Furniture",
+    "price": 98,
+    "oldPrice": 130,
+    "image": "https://cdn.shopify.com/s/files/1/0428/4973/files/01-01.jpg?v=1704186043"
+  },
+  {
+    "id": 16,
+    "title": "Foldable Dining Chair",
+    "category": "Dining Chairs",
+    "price": 125,
+    "oldPrice": 165,
+    "image": "https://www.angelfurniture.in/image/cache/catalog/AFC02W/2%20-%20Copy-550x550.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Leather Executive Chair",
+    "category": "Office Chairs",
+    "price": 240,
+    "oldPrice": 300,
+    "image": "https://m.media-amazon.com/images/I/81akRScTgXL.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Accent Arm Chair",
+    "category": "Armchairs",
+    "price": 215,
+    "oldPrice": 260,
+    "image": "https://m.media-amazon.com/images/I/51+8BgHpgPL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Minimalist Wooden Chair",
+    "category": "Living room",
+    "price": 190,
+    "oldPrice": 220,
+    "image": "https://m.media-amazon.com/images/I/6184LT8g3nL.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Round Pouf Ottoman",
+    "category": "Stools",
+    "price": 75,
+    "oldPrice": 95,
+    "image": "https://m.media-amazon.com/images/I/71N4wyWLjWL.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Scandinavian Dining Chair",
+    "category": "Dining Chairs",
+    "price": 160,
+    "oldPrice": 200,
+    "image": "https://m.media-amazon.com/images/I/71OsK+DUWZL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Retro Lounge Sofa",
+    "category": "3 Seater Sofas",
+    "price": 390,
+    "oldPrice": 450,
+    "image": "https://media.istockphoto.com/id/467916272/photo/sofa-against-white-wall.jpg?s=612x612&w=0&k=20&c=rzXrbcV27WYf5iAlAEpb4a3gVFhkj9U5sYLxrxFYs0M="
+  },
+  {
+    "id": 23,
+    "title": "Ergonomic Mesh Office Chair",
+    "category": "Office Chairs",
+    "price": 220,
+    "oldPrice": 265,
+    "image": "https://thesleepcompany.in/cdn/shop/files/01_copy_ae929ebd-fd90-4f8e-ac6f-dc8782001b86.webp?v=1749582890&width=700"
+  },
+  {
+    "id": 24,
+    "title": "Rustic TV Console Stand",
+    "category": "TV Stands",
+    "price": 285,
+    "oldPrice": 330,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71IHzaC717L._AC_UL600_SR600,600_.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Curved Wooden Armchair",
+    "category": "Armchairs",
+    "price": 260,
+    "oldPrice": 310,
+    "image": "https://images.woodenstreet.de/image/cache/data/arm-chairs/alexia-curved-arm-chair-with-cane-honey-finish/new-logo/1-810x702.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Ultra Soft Bean Bag",
+    "category": "Living room",
+    "price": 110,
+    "oldPrice": 135,
+    "image": "https://m.media-amazon.com/images/I/51a16jDSUNL.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Premium Teak Dining Set",
+    "category": "Dining Chairs",
+    "price": 490,
+    "oldPrice": 570,
+    "image": "https://m.media-amazon.com/images/I/81KQ5GQfrXL.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Modern Bookshelf Tower",
+    "category": "Living room",
+    "price": 155,
+    "oldPrice": 190,
+    "image": "https://a10shop.in/cdn/shop/products/alpha-bookshelf-storage-cabinet-with-5-shelf-67-high-tower-frosty-white-free-installation-542139.jpg?v=1674753855"
+  },
+  {
+    "id": 29,
+    "title": "Compact Study Table",
+    "category": "Kids Furniture",
+    "price": 170,
+    "oldPrice": 210,
+    "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/office-study-table/t/g/j/42-5-mdf-engineered-wood-computer-laptop-desk-study-table-with-4-original-imahahv99kdxpbtz.jpeg?q=90&crop=false"
+  },
+  {
+    "id": 30,
+    "title": "Reclining Wooden Armchair",
+    "category": "Recliners",
+    "price": 275,
+    "oldPrice": 325,
+    "image": "https://media.gettyimages.com/id/1347267432/photo/gray-leather-wood-armchair-isolated-in-white-background.jpg?s=612x612&w=gi&k=20&c=wmU0ZWoN-REHD6fxlimI8ejQOI0qH37aouwfYtZEPFs="
+  },
+  {
+    "id": 31,
+    "title": "Wicker Outdoor Chair",
+    "category": "Living room",
+    "price": 140,
+    "oldPrice": 180,
+    "image": "https://5.imimg.com/data5/OT/KW/MY-3495633/outdoor-wicker-chair.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Classic Wooden Bedside Stool",
+    "category": "Stools",
+    "price": 68,
+    "oldPrice": 85,
+    "image": "https://images.meesho.com/images/products/375114071/bzn4u_512.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Tall Bar Chair",
+    "category": "Dining Chairs",
+    "price": 145,
+    "oldPrice": 180,
+    "image": "https://www.shutterstock.com/image-photo/three-views-high-soft-bar-260nw-2314940477.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Stylish Cube Ottoman",
+    "category": "Stools",
+    "price": 90,
+    "oldPrice": 120,
+    "image": "https://m.media-amazon.com/images/I/71TanNv9XtL.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Wooden Laptop Table",
+    "category": "Office Chairs",
+    "price": 125,
+    "oldPrice": 155,
+    "image": "https://www.furniselan.com/cdn/shop/products/cabinda-solid-wood-writing-study-table-study-laptop-desk-with-drawer-717386_700x_crop_center.jpg?v=1679739728"
+  },
+  {
+    "id": 36,
+    "title": "Multicolor Kids Chair",
+    "category": "Kids Furniture",
+    "price": 75,
+    "oldPrice": 99,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Sx8JL1OZL._AC_UL600_SR600,600_.jpg"
+  },
+  {
+    "id": 37,
+    "title": "High Back Leather Recliner",
+    "category": "Recliners",
+    "price": 510,
+    "oldPrice": 590,
+    "image": "https://m.media-amazon.com/images/I/818Vg4sejYL._AC_UF350,350_QL80_.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Slim Wooden Shoe Rack",
+    "category": "Living room",
+    "price": 130,
+    "oldPrice": 170,
+    "image": "https://img.freepik.com/free-photo/view-shoe-rack-stacking-pair-footwear_23-2150991540.jpg?semt=ais_items_boosted&w=740"
+  },
+  {
+    "id": 39,
+    "title": "Foldable Garden Chair",
+    "category": "Living room",
+    "price": 98,
+    "oldPrice": 125,
+    "image": "https://m.media-amazon.com/images/I/81zIBeRoGDL.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Comfort Lounge Recliner",
+    "category": "Recliners",
+    "price": 435,
+    "oldPrice": 500,
+    "image": "https://www.cherrypickindia.in/wp-content/uploads/2020/07/IMG-SINGLE-SEATER-RECLINER-DIVANI-MODEL-S325-2.jpg"
+  },
+   {
+    "id": 41,
+      "title": "Chair",
+      "image": "/public/category/chair.png",
+      "category": "home-category"
+    },
+    {
+      "id": 42,
+      "title": "Sofa",
+      "image": "/public/category/sofa.webp",
+      "category":"home-category"
+    },
+    {
+      "id": 43,
+      "title": "Table",
+      "image": "/public/category/table.png",
+      "category":"home-category"
+    },
+    {
+      "id": 44,
+      "title": "Bed",
+      "image": "/public/category/bed.webp",
+      "category":"home-category"
+    },
+    {
+      "id": 45,
+      "title": "Wardrobe",
+      "image": "/public/category/wardrobe.webp",
+      "category":"home-category"
+    },
+    {
+      "id": 46,
+      "title": "Bookshelf",
+      "image": "/public/category/bookshelf.avif",
+      "category":"home-category"
+    },
+     {
+      "id": 47,
+    "title": "Timeless Furniture, Timeless Comfort",
+    "subtext": "DESIGN YOUR SPACE",
+    "price": "$12.00",
+     "image": "/public/shopbycat1.png",
+    "bg": "bg-[#f9f8f6]",
+    "category": "shop-by-category"
+  },
+  {
+    "id": 48,
+    "title": "Shine With Style",
+    "subtext": "ELEGANCE IN EVERY GLOW",
+    "coupon": "FURNI24",
+     "image": "/public/shopbycat2.png",
+    "bg": "bg-[#fdf7f2]",
+    "category": "shop-by-category"
+  },
+  {
+    "id": 49,
+    "title": "Elegant Sofas for Every Room",
+    "subtext": "RELAX IN STYLE",
+    "price": "$320.00",
+     "image": "/public/sofa-set (2).png",
+    "bg": "bg-[#f8f1ec]",
+    "category": "shop-by-category"
+  },
+  {
+    "id": 50,
+    "title": "Lighting that Inspires",
+    "subtext": "BRIGHTEN YOUR SPACE",
+    "coupon": "LIGHT10",
+     "image": "/public/Adobe Express - file (5).png",
+    "bg": "bg-[#fcf5e7]",
+    "category": "shop-by-category"
+  },
+  {
+    "id": 51,
+    "title": "Storage with Elegance",
+    "subtext": "ORGANIZE BEAUTIFULLY",
+    "price": "$89.99",
+     "image": "/public/storage-box.png",
+    "bg": "bg-[#f2f8f5]",
+    "category": "shop-by-category"
+  },
+  {
+    "id": 52,
+    "title": "Modern Tables Collection",
+    "subtext": "SIMPLICITY MEETS FUNCTION",
+    "coupon": "MODERN20",
+     "image": "/public/tea-set (2).png",
+    "bg": "bg-[#f6f9fe]",
+    "category": "shop-by-category"
+  }
+]
