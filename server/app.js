@@ -23,7 +23,7 @@ const port = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://your-frontend-url.vercel.app"  // 🔁 Replace when deployed
+    "https://mern-project-frontend-2.onrender.com"  // 🔁 Replace when deployed
   ],
   credentials: true,
 }));
