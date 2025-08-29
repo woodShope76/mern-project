@@ -15,10 +15,13 @@ router.post("/firebase-login", async (req, res) => {
     }
 
     // Set cookie
-    res.cookie("userId", user._id.toString(), {
-      httpOnly: true,
-      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-    });
+  res.cookie("userId", user._id.toString(), {
+  httpOnly: true,
+  secure: true,              // ✅ required for HTTPS (Render, Vercel, etc.)
+  sameSite: "None",          // ✅ required for cross-origin cookies
+  maxAge: 7 * 24 * 60 * 60 * 1000,
+});
+
 
     res.status(200).json(user);
   } catch (error) {
