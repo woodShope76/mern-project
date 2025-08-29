@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
         {/* Right Image */}
         <div className="relative">
           <img
-            src="public/black-chairs.avif"
+            src="https://res.cloudinary.com/dadclqksp/image/upload/v1756448100/black-chairs_zviwb0.avif"
             alt="Furniture"
             className="rounded-xl shadow-lg"
           />
