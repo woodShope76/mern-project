@@ -22,7 +22,7 @@ const AboutUs = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <img
-              src="public/sofa-set (2).png"
+              src="https://res.cloudinary.com/dadclqksp/image/upload/v1756448264/sofa-set_2_c4hc8b.png"
               alt="Furniture showroom"
               className="w-full rounded-2xl "
             />
