@@ -9,7 +9,7 @@ const Profile = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/profile", { withCredentials: true })
+      .get("https://mern-project-backend-2-g3px.onrender.com/api/profile", { withCredentials: true })
       .then((res) => {
         setUser(res.data.user);
         setImage(res.data.user.image || "");

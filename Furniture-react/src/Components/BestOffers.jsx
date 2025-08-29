@@ -24,7 +24,7 @@ useEffect(() => {
     if (!categoryProducts[category]) {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/products?category=${encodeURIComponent(category.trim())}`
+          `https://mern-project-backend-2-g3px.onrender.com/api/products?category=${encodeURIComponent(category.trim())}`
         );
         setCategoryProducts((prev) => ({
           ...prev,
@@ -69,14 +69,14 @@ useEffect(() => {
                   <Link
                     to={`/product/${product._id}`}
                     key={product._id}
-                    className="border rounded p-3 hover:shadow-md transition"
+                    className="border border-amber-600 rounded p-3 hover:shadow-md transition"
                   >
                     <img
                       src={product.image}
                       alt={product.title}
                       className="w-full h-28 object-contain mb-2"
                     />
-                    <h4 className="text-sm font-semibold truncate">
+                    <h4 className="text-sm font-semibold text-amber-900 truncate">
                       {product.title}
                     </h4>
                     <p className="text-xs text-gray-500 truncate">

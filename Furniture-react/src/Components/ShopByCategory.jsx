@@ -23,7 +23,7 @@ const ProductShowcase = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/products");
+        const res = await axios.get("https://mern-project-backend-2-g3px.onrender.com/api/products");
         setProducts(res.data.slice(0, 8));
       } catch (error) {
         console.error("Failed to fetch products:", error);

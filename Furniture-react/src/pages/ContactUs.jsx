@@ -64,9 +64,9 @@ const ContactUs = () => {
               We'd love to hear from you. Whether you have a question about a product, visit, or anything else — our team is ready to help!
             </p>
             <div className="space-y-4 text-gray-700">
-              <p>📍 Ramnagar ward no. 32 , Net Dada mandir ke passs, Churu - 331001, Rajasthan, India</p>
-              <p>📞 +91-9784659641</p>
-              <p><a href="mailto:nareshjangir4jan1981@gmail.com">✉️ nareshjangir4jan1981@gmail.com</a></p>
+              <p>📍 Ram-nagar Churu - 331001, Rajasthan, India</p>
+              <p>📞  +91-9777777895</p>
+              <p><a href="mailto:nareshjangir4jan1981@gmail.com">✉️ woodshope76@gmail.com</a></p>
             </div>
             <div className="mt-8 space-y-4">
               <button className="w-full bg-[#8b4513] text-white py-3 rounded-md hover:bg-[#6d3510] font-semibold">

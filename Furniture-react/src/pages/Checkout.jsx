@@ -33,17 +33,17 @@ const Checkout = () => {
 
         try {
           // Fetch saved addresses
-          const res = await fetch(`http://localhost:5000/api/address/${user.uid}`);
+          const res = await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/address/${user.uid}`);
           const data = await res.json();
           if (Array.isArray(data)) setSavedAddresses(data);
 
           // Fetch cart items if not passed
           if (cartItems.length === 0) {
-            const cartRes = await fetch(`http://localhost:5000/api/cart/${user.uid}`);
+            const cartRes = await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/cart/${user.uid}`);
             const cartData = await cartRes.json();
             const enrichedItems = await Promise.all(
               cartData.items.map(async (item) => {
-                const prodRes = await fetch(`http://localhost:5000/products/${item.productId}`);
+                const prodRes = await fetch(`https://mern-project-backend-2-g3px.onrender.com/products/${item.productId}`);
                 const product = await prodRes.json();
                 return { ...product, _id: item.productId, quantity: item.quantity };
               })
@@ -92,7 +92,7 @@ const Checkout = () => {
           : formData;
 
       if (selectedAddressIndex === null) {
-        await fetch("http://localhost:5000/api/address/save", {
+        await fetch("https://mern-project-backend-2-g3px.onrender.com/api/address/save", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -110,7 +110,7 @@ const Checkout = () => {
   price: item.price,
       }));
 
-      await fetch("http://localhost:5000/api/orders/create-order", {
+      await fetch("https://mern-project-backend-2-g3px.onrender.com/api/orders/create-order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -124,7 +124,7 @@ const Checkout = () => {
         }),
       });
 
-      await fetch(`http://localhost:5000/api/cart/clear/${currentUser.uid}`, {
+      await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/cart/clear/${currentUser.uid}`, {
         method: "DELETE",
       });
 

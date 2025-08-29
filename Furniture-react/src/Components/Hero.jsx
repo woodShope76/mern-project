@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { div } from "framer-motion/client";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -27,7 +28,9 @@ const Hero = () => {
         <p className="text-lg md:text-xl mb-4">
           Explore our premium collection now.
         </p>
+        <Link to="/shop">
         <button className="btn group bg-[#776b4e] font-sans border-none font-semibold rounded-full text-white flex items-center justify-center gap-0 overflow-hidden px-6 py-2">
+          
           <span className="transition-all duration-300 group-hover:mr-2">
             SHOP NOW
           </span>
@@ -35,6 +38,7 @@ const Hero = () => {
             <ArrowRight />
           </span>
         </button>
+        </Link>
       </div>
     </div>
     <div className="bg-blue-400/10 h-full w-full"></div>

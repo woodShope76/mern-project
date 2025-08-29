@@ -28,22 +28,22 @@ const AdminPanel = () => {
   }, []);
 
   const fetchUsers = async () => {
-    const res = await axios.get("http://localhost:5000/api/users");
+    const res = await axios.get("https://mern-project-backend-2-g3px.onrender.com/api/users");
     setUsers(res.data);
   };
 
   const fetchOrders = async () => {
-    const res = await axios.get("http://localhost:5000/api/orders");
+    const res = await axios.get("https://mern-project-backend-2-g3px.onrender.com/api/orders");
     setOrders(res.data);
   };
 
   const fetchProducts = async () => {
-    const res = await axios.get("http://localhost:5000/api/products");
+    const res = await axios.get("https://mern-project-backend-2-g3px.onrender.com/api/products");
     setProducts(res.data);
   };
 
   const fetchCategories = async () => {
-    const res = await axios.get("http://localhost:5000/api/products/categories");
+    const res = await axios.get("https://mern-project-backend-2-g3px.onrender.com/api/products/categories");
     setCategories(res.data);
   };
 
@@ -80,7 +80,7 @@ const AdminPanel = () => {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/products/add", [payload]);
+      await axios.post("https://mern-project-backend-2-g3px.onrender.com/api/products/add", [payload]);
       setNewProduct({
          title: "",
   price: "",
@@ -98,22 +98,22 @@ const AdminPanel = () => {
   };
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:5000/api/users/${id}`);
+    await axios.delete(`https://mern-project-backend-2-g3px.onrender.com/api/users/${id}`);
     fetchUsers();
   };
 
   const updateOrderStatus = async (id, status) => {
-    await axios.put(`http://localhost:5000/api/orders/${id}`, { status });
+    await axios.put(`https://mern-project-backend-2-g3px.onrender.com/api/orders/${id}`, { status });
     fetchOrders();
   };
 
   const deleteProduct = async (id) => {
-    await axios.delete(`http://localhost:5000/api/products/${id}`);
+    await axios.delete(`https://mern-project-backend-2-g3px.onrender.com/api/products/${id}`);
     fetchProducts();
   };
 
   const toggleStock = async (id, currentStock) => {
-    await axios.put(`http://localhost:5000/api/products/${id}`, { stock: !currentStock });
+    await axios.put(`https://mern-project-backend-2-g3px.onrender.com/api/products/${id}`, { stock: !currentStock });
     fetchProducts();
   };
 

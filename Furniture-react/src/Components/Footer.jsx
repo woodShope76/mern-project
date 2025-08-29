@@ -61,12 +61,12 @@ const Footer = () => {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
             </p>
             <ul className="space-y-3 text-gray-600 text-[15px]">
-              <li className="flex items-center gap-2"><FaMapMarkerAlt /> Ramnagar ward no. 32 , Churu - 331001, Rajasthan, India</li>
-              <li className="flex items-center gap-2"><FaPhoneAlt /> +91-9784659641</li>
+              <li className="flex items-center gap-2"><FaMapMarkerAlt /> Ram-nagar Churu - 331001, Rajasthan, India</li>
+              <li className="flex items-center gap-2"><FaPhoneAlt /> +91-9777777895</li>
               <li className="flex items-center gap-2 break-all text-[14px]">
   <FaEnvelope />
   <a href="mailto:nareshjangir4jan1981@gmail.com" className="hover:underline">
-    nareshjangir4jan1981@gmail.com
+    woodshope76@gmail.com
   </a>
 </li>
 

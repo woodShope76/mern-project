@@ -20,13 +20,13 @@ useEffect(() => {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/cart/${user.uid}`);
+      const res = await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/cart/${user.uid}`);
       const data = await res.json();
 
       const enrichedItems = await Promise.all(
         data.items.map(async (item) => {
           try {
-            const productRes = await fetch(`http://localhost:5000/api/products/${item.productId}`);
+            const productRes = await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/products/${item.productId}`);
             if (!productRes.ok) throw new Error("Product not found");
 
             const product = await productRes.json();
@@ -60,7 +60,7 @@ useEffect(() => {
   if (!user || !user._id) return;
 
   try {
-    const res = await fetch("http://localhost:5000/api/cart/delete", {
+    const res = await fetch("https://mern-project-backend-2-g3px.onrender.com/api/cart/delete", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

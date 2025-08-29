@@ -19,7 +19,7 @@ const OrdersPage = () => {
       }
 
       try {
-        const res = await axios.get(`http://localhost:5000/api/orders/${user.uid}`);
+        const res = await axios.get(`https://mern-project-backend-2-g3px.onrender.com/api/orders/${user.uid}`);
         setOrders(res.data);
       } catch (err) {
         setError("Failed to fetch orders");

@@ -16,9 +16,11 @@ const DisplayPage = () => {
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(false);
   const { setCartUpdated } = useContext(CartContext);
+  const [isLiked, setIsLiked] = useState(false);
+
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://mern-project-backend-2-g3px.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => {
         setAllProducts(data);
@@ -39,7 +41,7 @@ const DisplayPage = () => {
     const userId = user.uid;
 
     try {
-      const response = await fetch("http://localhost:5000/api/cart/add-to-cart", {
+      const response = await fetch("https://mern-project-backend-2-g3px.onrender.com/api/cart/add-to-cart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId, productId: product._id, quantity }),
@@ -59,18 +61,31 @@ const DisplayPage = () => {
       alert("Something went wrong.");
     }
   };
+  useEffect(() => {
+  if (!product) return; // ✅ Guard clause
 
-  const handleLike = () => {
-    let liked = JSON.parse(localStorage.getItem("likedProducts")) || [];
-    const alreadyLiked = liked.find((item) => item.id === product.id);
-    if (!alreadyLiked) {
-      liked.push(product);
-      localStorage.setItem("likedProducts", JSON.stringify(liked));
-      alert("Product added to Like page!");
-    } else {
-      alert("Product is already liked!");
-    }
-  };
+  const liked = JSON.parse(localStorage.getItem("likedProducts")) || [];
+  const alreadyLiked = liked.find((item) => item.id === product.id);
+  if (alreadyLiked) {
+    setIsLiked(true);
+  }
+}, [product]); // ✅ Just watch `product`, not `product.id`
+
+
+ const handleLike = () => {
+  let liked = JSON.parse(localStorage.getItem("likedProducts")) || [];
+  const alreadyLiked = liked.find((item) => item.id === product.id);
+  if (!alreadyLiked) {
+    liked.push(product);
+    localStorage.setItem("likedProducts", JSON.stringify(liked));
+    setIsLiked(true); // ✅ Set the state
+  window.location.reload();
+
+  } else {
+    alert("Product is already liked!");
+  }
+};
+
 
   const relatedProducts = allProducts.filter(
     (item) => item.category === product?.category && item._id !== product?._id
@@ -133,12 +148,17 @@ const DisplayPage = () => {
               {loading ? "Adding..." : "Add To Cart"}
             </button>
 
-            <button
-              onClick={handleLike}
-              className="flex items-center gap-2 border border-[#8b4513] text-[#8b4513] px-5 py-2 rounded-lg hover:bg-[#f3e6dc] transition-all"
-            >
-              <BsHeart className="text-lg" /> Like
-            </button>
+ <button
+  onClick={handleLike}
+  className={`flex items-center gap-2 border border-[#8b4513] px-5 py-2 rounded-lg transition-all ${
+    isLiked ? "bg-[#c1975b] text-white" : "text-[#8b4513] hover:bg-[#f3e6dc]"
+  }`}
+>
+  <BsHeart className="text-lg" />
+  {isLiked ? "Liked" : "Like"}
+</button>
+
+
           </div>
 
           <p className="text-md text-gray-600">

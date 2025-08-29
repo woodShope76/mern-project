@@ -37,7 +37,7 @@ const Navbar = () => {
       }
 
       try {
-        const res = await fetch(`http://localhost:5000/api/cart/${user.uid}`);
+        const res = await fetch(`https://mern-project-backend-2-g3px.onrender.com/api/cart/${user.uid}`);
         const data = await res.json();
         const totalQty = (data.items || []).reduce((sum, item) => sum + item.quantity, 0);
         setCartCount(totalQty);

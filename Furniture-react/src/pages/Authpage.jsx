@@ -39,7 +39,7 @@ const AuthPage = () => {
       const user = userCredential.user;
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/firebase-login",
+        "https://mern-project-backend-2-g3px.onrender.com/api/auth/firebase-login",
         {
           email: user.email,
           name: user.displayName || name || "No Name",
@@ -67,7 +67,7 @@ const AuthPage = () => {
       const user = result.user;
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/firebase-login",
+        "https://mern-project-backend-2-g3px.onrender.com/api/auth/firebase-login",
         {
           email: user.email,
           name: user.displayName,
