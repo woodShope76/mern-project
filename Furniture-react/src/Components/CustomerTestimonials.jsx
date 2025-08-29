@@ -9,21 +9,21 @@ const testimonials = [
   {
     name: 'Anna Wright',
     title: 'CEO',
-    image: 'public/pro-1 (1).jpg',
+    image: 'https://res.cloudinary.com/dadclqksp/image/upload/v1756448394/pro-1_1_rs6pyh.jpg',
     feedback:
       'FixitGo helped us find the perfect furniture setup. Highly recommended for great quality and fast service!'
   },
   {
     name: 'John Deo',
     title: 'Manager',
-    image: 'public/pro-1 (2).jpg',
+    image: 'https://res.cloudinary.com/dadclqksp/image/upload/v1756448620/pro-1_2_dyafyy.jpg',
     feedback:
       'Excellent service, beautiful products, and top-notch customer care. I will definitely order again.'
   },
   {
     name: 'Priya Sharma',
     title: 'Interior Designer',
-    image: 'public/pro3.avif',
+    image: 'https://res.cloudinary.com/dadclqksp/image/upload/v1756448354/pro3_qvkz75.avif',
     feedback:
       'Aesthetically pleasing designs and timely delivery. FixitGo is my go-to for all furniture needs.'
   },
