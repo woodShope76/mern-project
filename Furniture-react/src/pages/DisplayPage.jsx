@@ -79,7 +79,7 @@ const DisplayPage = () => {
     liked.push(product);
     localStorage.setItem("likedProducts", JSON.stringify(liked));
     setIsLiked(true); // ✅ Set the state
-  window.location.reload();
+ 
 
   } else {
     alert("Product is already liked!");
